@@ -24,3 +24,18 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.my-custom-class .popover-content{
+    width: 300px;
+    margin-top: 16px;
+    --box-shadow: none;
+    --background: none;
+}
+
+.item-divider{
+    border-bottom: 1px solid var(--ion-color-light-tint);
+}
+
+ion-button{
+    text-transform: initial;
+}
