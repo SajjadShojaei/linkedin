@@ -5,5 +5,5 @@ export interface User {
     firstName: string;
     lastName: string;
     email: string;
-    tole: Role;
+    role: Role;
 }

@@ -33,7 +33,7 @@ private user$ = new BehaviorSubject<User>(null);
   get userRole(): Observable<Role> {
     return this.user$.asObservable().pipe(
       switchMap((user: User) => {
-        return of(user.tole);
+        return of(user.role);
       })
     )
   }
