@@ -12,6 +12,7 @@ import { AdvertisingComponent } from './components/advertising/advertising.compo
 import { ModalComponent } from './components/start-post/modal/modal.component';
 import { AllPostsComponent } from './components/all-posts/all-posts.component';
 import { TabsComponent } from './components/tabs/tabs.component';
+import { ChatComponent } from './components/chat/chat.component';
 
 @NgModule({
   imports: [CommonModule, FormsModule, IonicModule, HomePageRoutingModule],
@@ -24,6 +25,7 @@ import { TabsComponent } from './components/tabs/tabs.component';
     ModalComponent,
     AllPostsComponent,
     TabsComponent,
+    ChatComponent
   ],
 })
 export class HomePageModule {}
